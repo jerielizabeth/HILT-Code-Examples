@@ -1,0 +1,51 @@
+/* Basic Layout of a CSS declaration:
+
+selector {
+	identifier: value;
+} 
+*/
+
+/*** Standard Selectors ***/
+/* Type Selectors */
+
+body {
+
+}
+
+header {
+
+}
+
+nav {
+
+}
+
+h1 {
+
+}
+
+p {
+
+}
+
+ul {
+
+}
+
+/* ID Selectors */
+
+#sidebar {
+
+}
+
+/* Class Selectors */
+
+.blogpost {
+
+}
+
+/* Descendent Selectors */
+
+.blogpost h1 {
+
+}
