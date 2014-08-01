@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset=utf-8>
+    <title>A simple HTML5 page layout</title>
+    <link rel="stylesheet" type="text/css" href="#">
+  </head>
+
+  <body>
+    <header>
+      <h1>A simple HTML5 document</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="page_0.html">Elements</a></li>
+        <li><a href="page_1.html">Outer Structure</a></li>
+        <li><a href="page_2.html">Inner Structure</a></li>
+      </ul>
+    </nav>
+    
+    <main>
+      <article class="blogpost">
+        <h1>Text elements</h1>
+        <section>
+          <h2>Headers</h2>
+          <h1>Top-Level Header</h1>
+          <h2>Second-Level Header</h2>
+          <h3>Third-Level Header</h3>
+          <h4>Forth-Level Header</h4>
+          <h5>Fifth-Level Header</h5>
+          <h6>Sixth-Level Header</h6>
+        </section>
+        <section>
+          <h2>Text</h2>
+          <p>Paragraphs text:</p>
+          <p>Lorem ipsum dolor sit amet, elitr concludaturque eu usu. Errem impedit facilis eu eam. Graeco tacimates elaboraret no vis. <a href="http://www.google.com">Link to Google</a>
+           Id quando nominati constituto vim. Vero accusam eum ex.</p>
+
+          <blockquote>"Begin at the beginning," the King said, very gravely, "and go on till you come to the end: then stop."</blockquote>
+
+          <pre>
+            The formatting of the text 
+              within the "pre" tag is preserved.
+            </pre>
+        </section>
+        <section>
+          <h2>Lists</h2>
+          <ol>
+            <li>Ordered List</li>
+          </ol>
+
+          <ul>
+            <li>Unordered List</li>
+          </ul>
+
+        </section>
+      </article>
+      <article class="blogpost">
+        <h1>Images</h1>
+        <figure>
+          <img src="https://www.flickr.com/photos/pagedooley/10877811604/in/photolist-exakrT-hzeCpW-bsyv8U-hze5QW-dHcAn7-8BCzsr-8gihrC-4856y6-7dPz43-b9NGQ4-dpNFKA-8HXuPC-cQS3MJ-9uDaV6-7dPw9s-atrVSQ-9wduZD-dpNwhB-5aa6Jw-7TPE3v-6VGugH-a2G8jY-8yv9QR-at5uUd-6VPwoN-6WoPBS-aFdwoN-9Py6me-6qsN9C-9wduTT-6qoBmK-7tbuhz-8NaMQd-9SbMZe-dVPRZq-nK4F3y-5a9YiN-6Mk7yA-fc24i3-dhYQoe-7GPrt5-a947rb/" alt="Moon setting over the San Francisco skyline, seen from the Marin Headlines">
+          <figcaption>Caption for Image. Image by Anita Ritenour.</figcaption>
+        </figure>
+      </article>
+      <article class="blogpost">
+        <h1>Tables</h1>
+        <table>
+          <tr>
+            <th>Title of Column</th>
+            <th>Title of Column</th>
+            <th>Title of Column</th>
+          </tr>
+          <tr>
+            <td>Data Element</td>
+            <td>Data Element</td>
+            <td>Data Element</td>
+          </tr>
+          <tr>
+            <td>More Data</td>
+            <td>More Data</td>
+            <td>More Data</td>
+          </tr>
+        </table>
+      </article>
+
+    </main>
+
+      <!-- the old way. Also useful if you want to create a section taht does not have an obvious named tag -->
+    <div id="sidebar">
+    </div>
+
+    <!-- the new way. -->
+
+    <aside>
+      <h1>Supporting Content</h1>
+      <p>Things you want people to know but that are secondary in importance.</p>
+    </aside>
+    
+    <footer>
+      <h2>Footer</h2>
+      <p>Good place for authorship and copyright information.</p>
+    </footer>
+
+  </body>  
+</html>
