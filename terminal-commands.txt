@@ -1,0 +1,37 @@
+Change Directories - Move Down a Directory:
+
+cd FolderName/ 
+
+/********************************************************/
+
+Change Directories - Move Up a Directory:
+
+cd ../FolderName
+
+/********************************************************/
+
+List all Files and Folders in Current Directory:
+
+ls
+
+/********************************************************/
+
+List all Files, including hidding files:
+
+ls -a
+
+/********************************************************/
+
+Create a New Directory:
+
+mkdir FolderName
+
+/********************************************************/
+
+Delete a File:
+
+rm FileName
+
+/********************************************************/
+
+For more see http://praxis.scholarslab.org/tutorials/bash/
