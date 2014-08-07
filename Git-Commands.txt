@@ -1,0 +1,148 @@
+(if you run into trouble when using these, go to: http://git-scm.com/doc)
+
+Commands to Use When ...
+
+I want to see what branch I am on:
+
+git status
+
+/********************************************************/
+
+I want to see which remote repository my local repository is connected to:
+
+git remote show origin
+
+/********************************************************/
+
+I want to see if there have been any changes to the local repository:
+
+git status
+
+/********************************************************/
+
+I want to get any updates that are on the Github version of the repo:
+
+git pull
+
+/********************************************************/
+
+I changed my code and I want to push it up to the Github servers:
+
+git push origin [branch-name]
+
+/********************************************************/
+
+I want to use this other person's code and modify it for my own project:
+
+- On the Github webiste, go to the repository you want to copy
+- Select "Fork" in the upper right corner
+- This will create a copy of the project in your own repository
+
+/********************************************************/
+
+I have a repository on Github that I want to use on a new computer:
+
+- Go to your Github repository
+- Copy the Clone URL
+- Use the Terminal to move (cd [FolderName]) to the Folder you want to save the repository in
+
+git clone [URL]
+
+/********************************************************/
+
+I am at the beginning of a project and want to create a repository for it:
+
+- Go to your repositories on Github.com
+- Create a new repository (green button in the upper right)
+- Give the repo a name, and initialize WITH a README file
+- Copy the Clone URL
+- Use the terminal to move (cd [FolderName]) to the Folder you want to save the repository in
+
+git clone [URL]
+
+/********************************************************/
+
+I have a collection of files that I want to turn into a new repository:
+
+- Go to your repositories on Github.com. 
+- Create a new repository (green button in the upper right)
+- Give the repo a name, and initialize WITHOUT a readme file
+- Copy the Clone URL
+- Use the terminal to move (cd [FileName]) to the Folder with your files
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin [clone URL]
+git remote -v
+git push origin master
+
+/********************************************************/
+
+I want to create a new branch:
+
+git branch [branchName]
+
+/********************************************************/
+
+I want to create and switch to a new branch:
+
+git checkout -b [branchName]
+
+/********************************************************/
+
+I want to switch branches:
+
+git checkout [branchName]
+
+/********************************************************/
+
+I want to save changes to a particular branch:
+
+git add -A
+git commit -m "commit message"
+git push origin [branchName]
+
+/********************************************************/
+
+I want to move information from my branch gh-pages (or any other branch) to the master branch:
+
+git checkout master
+git merge gh-pages
+
+/********************************************************/
+
+I want to create a [username].github.io webpage:
+
+- Go to your repositories on Github.com
+- Create a new repository (green button in the upper right)
+- Give the repo with the name [username].github.io, and initialize WITH a README file
+- Copy the Clone URL
+- Use the terminal to move (cd [FolderName]) to the Folder you want to save the repository in
+
+git clone [URL]
+
+- create an index.html file
+
+git add -A
+git commit -m "commit message"
+git push origin master
+
+- website will display at [username].github.io
+
+/********************************************************/
+
+I have a project on Github that I want to create a Github webpage for:
+
+- Use the terminal to move (cd [FolderName]) to the Folder with your project
+
+git checkout -b gh-pages
+
+- create html and css files. Be sure to include an index.html file
+- remove extra files that are not related to the webpage
+
+git add -A
+git commit -m "creating website"
+git push origin gh-pages
+
+

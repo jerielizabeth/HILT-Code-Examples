@@ -1,0 +1,80 @@
+1. Change Directory to the Project Folder:
+
+cd [FolderName]
+
+/********************************************************/
+
+2. Check the status:
+
+git status
+
+/********************************************************/
+
+3. If there are pending changes that are untracked, add those files:
+
+git add [list-file-names]
+
+or 
+
+git add -A
+
+/********************************************************/
+
+4. If there are pending changes, commit those changes:
+
+git commit -m "your commit message"
+
+/********************************************************/
+
+5. Push any pending changes up to the desired branch:
+
+git push origin [branchName]
+
+/********************************************************/
+
+6. If there are not pending changes, make sure you are working with the most up-to-date version:
+
+git pull 
+
+- note: if you have multiple branches, run: 
+
+git pull --all
+
+/********************************************************/
+
+7. Checkout the branch you want to make changes to:
+
+git checkout [BranchName]
+
+/********************************************************/
+
+8. Make changes to the files
+
+/********************************************************/
+
+9. When you make changes that you want to flag (in order to come back to them if needed), add and commit them:
+
+git status
+git add -A
+git commit -m "commit message"
+
+/********************************************************/
+
+10. When you are done (or after any commit), push those changes up to Github:
+
+git push origin [branchName]
+
+/********************************************************/
+
+11. At the end of the day, check if you have any uncommitted changes:
+
+git status
+
+/********************************************************/
+
+12. Add, commit, and push any remaining changes:
+
+git add -A
+git commit -m "commit message"
+git push origin [branchName]
+
